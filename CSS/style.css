@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Merienda One', cursive;
+    background: #30E8BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1, h2, a, span {
+    color: rgb(43, 41, 41);
+}
+.p-3 {
+    background-color: rgb(45, 189, 157);
+}
+
+#score-list {
+    font-size: 1.2rem;
+    color: rgb(61, 53, 53);    
+}
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+li {
+    counter-increment: li;
+}
+
+li::before {
+    content: "." counter(li);
+    color: rgb(45, 230, 189);
+
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1.5rem;
+    margin-right: 0.5rem;
+    text-align: right;
+    direction: rtl;
+}
+
+
+hr {
+    height: 2px;
+    background-color: rgb(39, 4, 4);
+}
+#scoresTitle {
+    padding-left: 1rem;
+    color: rgb(39, 4, 4);
+}
+
+#startBtn, .restartBtn, .clearBtn, .submitBtn {
+    color: black;
+    background-color: rgb(45, 189, 157);
+}
