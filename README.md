@@ -13,7 +13,7 @@ Contributors
 Jonathan Echevarria j.eche589@gmail.com
 
 ## How to deploy
-Open quiz by going to https://jdavila10.github.io/Code-Quiz/
+Open quiz by going to https://jdavila10.github.io/DB_Quiz/
 
 
 ## How to take the quiz
